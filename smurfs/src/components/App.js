@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <AppContainer>
-        <h2>Smurfs!</h2>
+        <h1>Smurfs!</h1>
         <Form />
         <Container />
       </AppContainer>

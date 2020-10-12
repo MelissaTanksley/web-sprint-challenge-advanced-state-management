@@ -9,7 +9,6 @@ const FormContainer = styled.div`
   margin: auto;
   width: 50vw;
 `
-
 const Form = () => {
   const [input, setInput] = useState({})
 
@@ -30,11 +29,11 @@ const Form = () => {
         />
 
         <Input 
-          type="number" 
-          name="height" 
+          type="number"
+          name="height"
           value={input.height} 
           onChange={handleChange} 
-          placeholder="Height" 
+          placeholder="Height"
         />
 
         <Input 

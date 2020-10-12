@@ -31,7 +31,7 @@ const Card = (props) => {
     <StyledCard>
       <h3>{character.name}</h3>
       <p>{character.age} years old</p>
-      <p>{character.height}</p>
+      <p>{character.height} cm</p>
       <Button id={character.id} onClick={e => handleDelete(e)} color="danger">Delete</Button>
 
     </StyledCard>
